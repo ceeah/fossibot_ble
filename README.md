@@ -1,6 +1,6 @@
-# FossiBOT Home Assistant integration
+# FossiBOT Home Assistant integration over BLE
 
-This custom component exposes local telemetry from FossiBOT F2400 power stations.
+This integration exposes local telemetry from FossiBOT F2400 power stations.
 It uses ble for local connection to the power station and therefore requires no extra cloud connectivity.
 
 ## Installation
