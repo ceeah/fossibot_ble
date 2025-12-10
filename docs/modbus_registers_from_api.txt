@@ -1,0 +1,333 @@
+== Device details ==
+[
+  {
+    "code": 0,
+    "deviceInfo": {
+      "device_id": "34:CD:B0:6F:73:1A",
+      "mqtt_state": 0,
+      "productInfo": {
+        "_id": "66bdbc320d2b313577dd5600",
+        "brand_id": "658d42c309664c1c8d548f95",
+        "function_module": {
+          "setting_list": [
+            {
+              "_id": "658d44fcbd0220fad39bec77",
+              "data_list": [
+                0
+              ],
+              "data_state": false,
+              "function_name": "DC input type setting",
+              "holding_index": 15,
+              "protocol_version": 0,
+              "tip_lang_ids": [
+                "658d3e6921821b50af80201f"
+              ],
+              "tip_list": [
+                {
+                  "lang_text": "Photovoltaic MPPT input (compatible with car charging)"
+                }
+              ],
+              "type": "setting",
+              "unit_list": [
+                {
+                  "lang_text": "PV mode"
+                }
+              ]
+            },
+            {
+              "_id": "658d4535bd0220fad39bf628",
+              "data_list": [
+                0,
+                3,
+                5,
+                10,
+                30
+              ],
+              "data_state": true,
+              "function_name": "USB No-Load Standby Time",
+              "holding_index": 59,
+              "protocol_version": 0,
+              "tip_lang_ids": [
+                "658d3e8609664c1c8d53afe9"
+              ],
+              "tip_list": [
+                {
+                  "lang_text": "When the port is opened but not connected to the load for use, it will automatically turn off the output after the set time."
+                }
+              ],
+              "type": "setting",
+              "unit_list": [
+                {
+                  "lang_text": "min"
+                }
+              ]
+            },
+            {
+              "_id": "658d4563466d41a591c0e6f7",
+              "data_list": [
+                0,
+                8,
+                16,
+                24
+              ],
+              "data_state": true,
+              "function_name": "AC No-Load Standby Time",
+              "holding_index": 60,
+              "protocol_version": 0,
+              "tip_lang_ids": [
+                "658d3e8609664c1c8d53afe9"
+              ],
+              "tip_list": [
+                {
+                  "lang_text": "When the port is opened but not connected to the load for use, it will automatically turn off the output after the set time."
+                }
+              ],
+              "type": "setting",
+              "unit_list": [
+                {
+                  "lang_text": "h"
+                }
+              ]
+            },
+            {
+              "_id": "658d458755b337b6b2443abf",
+              "data_list": [
+                0,
+                8,
+                16,
+                24
+              ],
+              "data_state": true,
+              "function_name": "DC No-Load Standby Time",
+              "holding_index": 61,
+              "protocol_version": 0,
+              "tip_lang_ids": [
+                "658d3e8609664c1c8d53afe9"
+              ],
+              "tip_list": [
+                {
+                  "lang_text": "When the port is opened but not connected to the load for use, it will automatically turn off the output after the set time."
+                }
+              ],
+              "type": "setting",
+              "unit_list": [
+                {
+                  "lang_text": "h"
+                }
+              ]
+            },
+            {
+              "_id": "658d45aff08210d4b80fbf37",
+              "data_list": [
+                5,
+                10,
+                30,
+                480
+              ],
+              "data_state": true,
+              "function_name": "Whole machine unused time",
+              "holding_index": 68,
+              "protocol_version": 0,
+              "tip_lang_ids": [
+                "658d3e977ad52d59324e51be"
+              ],
+              "tip_list": [
+                {
+                  "lang_text": "When all ports of the machine are closed, it will automatically shut down after the set time"
+                }
+              ],
+              "type": "setting",
+              "unit_list": [
+                {
+                  "lang_text": "min"
+                }
+              ]
+            },
+            {
+              "_id": "658d45cffe975f47a50140ff",
+              "data_list": [
+                3,
+                5,
+                10,
+                30
+              ],
+              "data_state": true,
+              "function_name": "Screen rest time",
+              "holding_index": 62,
+              "protocol_version": 0,
+              "tip_lang_ids": [
+                "658d3eaba09a9be753270528"
+              ],
+              "tip_list": [
+                {
+                  "lang_text": "When there is no operation, the screen will pause after the set time(dark screen)"
+                }
+              ],
+              "type": "setting",
+              "unit_list": [
+                {
+                  "lang_text": "min"
+                }
+              ]
+            }
+          ],
+          "state_list": [
+            {
+              "_id": "658d44196e5d2d71875af6a4",
+              "children": [
+                {
+                  "_id": "658d4419f08210d4b80f758a",
+                  "function_name": "QC3.0",
+                  "icon": "vk-custom-icon-usb",
+                  "input_index": 3,
+                  "parent_id": "658d44196e5d2d71875af6a4",
+                  "type": "state_children"
+                },
+                {
+                  "_id": "658d4419f08210d4b80f758b",
+                  "function_name": "PD 20W",
+                  "icon": "vk-custom-icon-type-c",
+                  "input_index": 7,
+                  "parent_id": "658d44196e5d2d71875af6a4",
+                  "type": "state_children"
+                },
+                {
+                  "_id": "658d4419f08210d4b80f758c",
+                  "function_name": "PD 100W",
+                  "icon": "vk-custom-icon-type-c",
+                  "input_index": 6,
+                  "parent_id": "658d44196e5d2d71875af6a4",
+                  "type": "state_children"
+                },
+                {
+                  "_id": "658d4419f08210d4b80f758d",
+                  "function_name": "QC3.0",
+                  "icon": "vk-custom-icon-usb",
+                  "input_index": 4,
+                  "parent_id": "658d44196e5d2d71875af6a4",
+                  "type": "state_children"
+                },
+                {
+                  "_id": "658d4419f08210d4b80f758e",
+                  "function_name": "PD 20W",
+                  "icon": "vk-custom-icon-type-c",
+                  "input_index": 8,
+                  "parent_id": "658d44196e5d2d71875af6a4",
+                  "type": "state_children"
+                },
+                {
+                  "_id": "658d4419f08210d4b80f758f",
+                  "function_name": "PD 20W",
+                  "icon": "vk-custom-icon-type-c",
+                  "input_index": 9,
+                  "parent_id": "658d44196e5d2d71875af6a4",
+                  "type": "state_children"
+                }
+              ],
+              "function_name": "USB output",
+              "holding_index": 24,
+              "input_index": 25,
+              "protocol_version": 0,
+              "type": "state"
+            },
+            {
+              "_id": "658d444b65234188b32d08db",
+              "children": [
+                {
+                  "_id": "658d444b213929458d15fbac",
+                  "function_name": "AC",
+                  "icon": "vk-custom-icon-ac",
+                  "input_index": 18,
+                  "parent_id": "658d444b65234188b32d08db",
+                  "type": "state_children"
+                }
+              ],
+              "function_name": "AC output",
+              "holding_index": 26,
+              "input_index": 27,
+              "protocol_version": 0,
+              "type": "state"
+            },
+            {
+              "_id": "658d447c337a9f4394f57e31",
+              "children": [
+                {
+                  "_id": "658d447c337a9f4394f57e3c",
+                  "function_name": "Car charging",
+                  "icon": "vk-custom-icon-car-charger",
+                  "input_index": 14,
+                  "parent_id": "658d447c337a9f4394f57e31",
+                  "type": "state_children"
+                },
+                {
+                  "_id": "658d447c337a9f4394f57e3d",
+                  "function_name": "XT60",
+                  "icon": "vk-custom-icon-xt60",
+                  "input_index": 13,
+                  "parent_id": "658d447c337a9f4394f57e31",
+                  "type": "state_children"
+                },
+                {
+                  "_id": "658d447c337a9f4394f57e3e",
+                  "function_name": "DC",
+                  "icon": "vk-custom-icon-dc",
+                  "input_index": 15,
+                  "parent_id": "658d447c337a9f4394f57e31",
+                  "type": "state_children"
+                }
+              ],
+              "function_name": "DC output",
+              "holding_index": 25,
+              "input_index": 26,
+              "protocol_version": 0,
+              "type": "state"
+            },
+            {
+              "_id": "658d44a1fe975f47a50107a3",
+              "children": [
+                {
+                  "_id": "658d44a121821b50af81683c",
+                  "function_name": "Always On",
+                  "input_index": 1,
+                  "parent_id": "658d44a1fe975f47a50107a3",
+                  "type": "state_children"
+                },
+                {
+                  "_id": "658d44a121821b50af81683d",
+                  "function_name": "SOS Mode",
+                  "input_index": 2,
+                  "parent_id": "658d44a1fe975f47a50107a3",
+                  "type": "state_children"
+                },
+                {
+                  "_id": "658d44a121821b50af81683e",
+                  "function_name": "Flash Mode",
+                  "input_index": 3,
+                  "parent_id": "658d44a1fe975f47a50107a3",
+                  "type": "state_children"
+                }
+              ],
+              "function_name": "LED light",
+              "holding_index": 27,
+              "input_index": 28,
+              "protocol_version": 0,
+              "type": "state"
+            }
+          ]
+        },
+        "modbus_address": 17,
+        "modbus_count": 80,
+        "name": "POWER-0084",
+        "page_path": "/pages/device/portable-power-station/info",
+        "product_imgs": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73166917-19788323-0.png"
+        ],
+        "product_name": "F2400-B",
+        "protocol_version": 0,
+        "uuid": "00008400-0000-1000-8000-00805F9B34FB"
+      },
+      "timezoneOffset": 120
+    },
+    "msg": ""
+  }
+]

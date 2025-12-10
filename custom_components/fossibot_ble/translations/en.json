@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "discovery_confirm": {
+        "title": "Discovered FossiBOT",
+        "description": "Do you want to add {name}?"
+      }
+    },
+    "abort": {
+      "already_configured": "Device is already configured.",
+      "bluetooth_only": "This integration must be set up from the Bluetooth discovery dialog.",
+      "unknown": "Unknown error."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "FossiBOT options",
+        "description": "No extra options are available yet."
+      }
+    }
+  }
+}

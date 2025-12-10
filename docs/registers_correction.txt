@@ -1,0 +1,4 @@
+- These registers are not showing proper information for the input register. Comment out them in code:
+13 20 53 55 57 60 61 62 63 66 67 68 71 72
+
+- register 59 is actually Remaining Discharge Time

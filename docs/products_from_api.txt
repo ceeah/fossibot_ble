@@ -1,0 +1,2872 @@
+"client/product/pub/listProductByWhereJson_v2"
+== Products ==
+[
+  {
+    "_id": "692416223f1a471b9d367f00",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-04C1",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/24/72569341-77314399-0.png"
+    ],
+    "product_name": "N067 | SYD | 220v",
+    "protocol_version": 0,
+    "uuid": "0000C104-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "692415db286f7c4cbb3485bb",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-81C1",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/24/72569341-77314399-0.png"
+    ],
+    "product_name": "N067 | SYD | 110v",
+    "protocol_version": 0,
+    "uuid": "0000C181-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "692413c00d2b31254ad46e29",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-0406",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/24/72746039-87783962-0.png"
+    ],
+    "product_name": "BS064\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00000604-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "692412b3a09a9bbb81875d0d",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-8106",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/24/72746039-87783962-0.png"
+    ],
+    "product_name": "BS064\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "00000681-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6923d9d12eea65a7373e66e7",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-8186",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/07/87360770-49953298-0.png"
+    ],
+    "product_name": "BS068\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "00008681-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6923d98cc3b5c983b52eac53",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-0486",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/07/87360770-49953298-0.png"
+    ],
+    "product_name": "BS068\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00008604-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "691421302139294f814fd77f",
+    "brand_id": "6784be0b9755e37462ecee4e",
+    "name": "POWER-V1-B283",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/05/36271172-49953159-0.png"
+    ],
+    "product_name": "WDF\uff5cN113\uff5c120v",
+    "protocol_version": 1,
+    "uuid": "000083B2-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "69131b7ace5ec91013792327",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-8181",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/07/87360770-49953298-0.png"
+    ],
+    "product_name": "N109-A",
+    "protocol_version": 0,
+    "uuid": "00008181-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "69131b60f08210f2f1cc546e",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-0481",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/07/87360770-49953298-0.png"
+    ],
+    "product_name": "N109-B",
+    "protocol_version": 0,
+    "uuid": "00008104-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "690d6c7d9755e3a59affe44e",
+    "brand_id": "666bbb2bbd02209c398bd4fa",
+    "name": "POWER-8182",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/07/87360770-49953298-0.png"
+    ],
+    "product_name": "PS1200-A",
+    "protocol_version": 0,
+    "uuid": "00008281-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "690d6c43bd0220da8866f327",
+    "brand_id": "666bbb2bbd02209c398bd4fa",
+    "name": "POWER-0482",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/07/87360770-49953298-0.png"
+    ],
+    "product_name": "PS1200-B",
+    "protocol_version": 0,
+    "uuid": "00008204-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "690c0f5c862066a338ea88a1",
+    "brand_id": "6784be0b9755e37462ecee4e",
+    "name": "POWER-V1-1C83",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/05/36271172-49953159-0.png"
+    ],
+    "product_name": "WDF\uff5cN113\uff5c220v",
+    "protocol_version": 1,
+    "uuid": "0000831C-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "690c0f36286f7cfef640a5c5",
+    "brand_id": "6784be0b9755e37462ecee4e",
+    "name": "POWER-V1-4E83",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/05/36271172-49953159-0.png"
+    ],
+    "product_name": "WDF\uff5cN113\uff5c110v",
+    "protocol_version": 1,
+    "uuid": "0000834E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "690bf387f2949cef37910617",
+    "brand_id": "6862251f816a3feaeabc6a8c",
+    "name": "POWER-7E4A",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/06/91050150-35752268-0.png"
+    ],
+    "product_name": "ABOK\uff5cN078\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "00004A7E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "69081e408b0da4aae495b52e",
+    "brand_id": "69081d86ee97ef45cad1807c",
+    "name": "POWER-014D",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72944329-17437129-0.png"
+    ],
+    "product_name": "DAQING\uff5cN078\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00004D01-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68eb20b0189f86b5142fcb9c",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-82C1",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/10/11/70824873-71393936-0.png"
+    ],
+    "product_name": "SYD\uff5cN085\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000C182-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68ea134a99c6240906e6b0a2",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-05C1",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/10/11/70824873-71393936-0.png"
+    ],
+    "product_name": "SYD\uff5cN085\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "0000C105-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68d0c57609664cca982777f4",
+    "brand_id": "68d0c49ba09a9b19e3e84dfb",
+    "name": "POWER-7F4C",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/09/22/26182021-21845834-0.png"
+    ],
+    "product_name": "OffGrid Pro 7200",
+    "protocol_version": 0,
+    "uuid": "00004C7F-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68d0c551eef9cb5e0d649700",
+    "brand_id": "68d0c49ba09a9b19e3e84dfb",
+    "name": "POWER-024C",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/09/22/26182021-21845834-0.png"
+    ],
+    "product_name": "OffGrid Pro 7200 - B",
+    "protocol_version": 0,
+    "uuid": "00004C02-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68c900f52eea65b0f1bbbbba",
+    "brand_id": "666bbad88b0da4a4e4ffd6fa",
+    "name": "POWER-V1-B244",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72923888-33647417-0.png"
+    ],
+    "product_name": "F7200",
+    "protocol_version": 1,
+    "uuid": "000044B2-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68bff350f2949cb2ff0d0029",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-8141",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/09/09/10984641-38816826-0.png"
+    ],
+    "product_name": "SYD\uff5cN069\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "00004181-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68bff32809664cca98a4af62",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-0441",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/09/09/10984641-38816826-0.png"
+    ],
+    "product_name": "SYD\uff5cN069\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00004104-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68bc0589a674f439f975d3ff",
+    "brand_id": "6784be0b9755e37462ecee4e",
+    "name": "POWER-V1-19C3",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/09/06/52648321-82567482-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00149381-91475862-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00151162-75512284-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00152562-95455972-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00154268-74546245-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00155785-55583799-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00157330-92725169-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00158628-89831135-0.png"
+    ],
+    "product_name": "YT003 | 220v",
+    "protocol_version": 1,
+    "uuid": "0000C319-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68a52a56f08210a1febcbfe0",
+    "brand_id": "68a5299f286f7cb2b89c078b",
+    "name": "POWER-7F4B",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/08/20/55457820-54115845-0.png"
+    ],
+    "product_name": "JIUYI\uff5cN086\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "00004B7F-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68a52a40816a3feaea8e8c47",
+    "brand_id": "68a5299f286f7cb2b89c078b",
+    "name": "POWER-024B",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/08/20/55457820-54115845-0.png"
+    ],
+    "product_name": "JIUYI\uff5cN086\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00004B02-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68a52927466d413f7006ff7e",
+    "brand_id": "69081d86ee97ef45cad1807c",
+    "name": "POWER-7E4D",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72944329-17437129-0.png"
+    ],
+    "product_name": "DAQING\uff5cN078\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "00004D7E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68a5290da7c43263da6fc717",
+    "brand_id": "6862251f816a3feaeabc6a8c",
+    "name": "POWER-014A",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/06/91050150-35752268-0.png"
+    ],
+    "product_name": "ABOK\uff5cN078\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00004A01-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "688b0684213929ab1d969fae",
+    "brand_id": "666bbad88b0da4a4e4ffd6fa",
+    "name": "POWER-V1-1984",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/06/30/64093046-24283149-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00149381-91475862-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00151162-75512284-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00152562-95455972-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00154268-74546245-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00155785-55583799-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00157330-92725169-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00158628-89831135-0.png"
+    ],
+    "product_name": "QICHANG\uff5cYT002\uff5c220v",
+    "protocol_version": 1,
+    "uuid": "00008419-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "688b066cf08210a1fe28c0f5",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-V1-1941",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/02/19529316-42553459-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00149381-91475862-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00151162-75512284-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00152562-95455972-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00154268-74546245-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00155785-55583799-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00157330-92725169-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00158628-89831135-0.png"
+    ],
+    "product_name": "YT800 | 220v",
+    "protocol_version": 1,
+    "uuid": "00004119-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68896faa7ad52db7e74becd5",
+    "brand_id": "6784be0b9755e37462ecee4e",
+    "name": "POWER-9B43",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/23/42153804-88285366-0.png"
+    ],
+    "product_name": "WDF\uff5cN102\uff5c120v",
+    "protocol_version": 0,
+    "uuid": "0000439B-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68805e41c3b5c9ccb022467c",
+    "brand_id": "666bbb2bbd02209c398bd4fa",
+    "name": "POWER-0402 ",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/23/43176695-99733237-0.png"
+    ],
+    "product_name": "ITWORLD\uff5cN098\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00000204-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68805e2b3f1a470b6e11369a",
+    "brand_id": "666bbb2bbd02209c398bd4fa",
+    "name": "POWER-8102",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/23/43176695-99733237-0.png"
+    ],
+    "product_name": "ITWORLD\uff5cN098\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "00000281-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68805a56337a9f512185c24e",
+    "brand_id": "6784be0b9755e37462ecee4e",
+    "name": "POWER-8243",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/23/42153804-88285366-0.png"
+    ],
+    "product_name": "WDF\uff5cN102\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "00004382-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68805a2cfe975fd64c840d91",
+    "brand_id": "6784be0b9755e37462ecee4e",
+    "name": "POWER-0543",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/23/42153804-88285366-0.png"
+    ],
+    "product_name": "WDF\uff5cN102\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00004305-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6878d761a674f4a2c75b493a",
+    "brand_id": "666bbad88b0da4a4e4ffd6fa",
+    "name": "POWER-V1-3544",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72923888-33647417-0.png"
+    ],
+    "product_name": "F7200",
+    "protocol_version": 1,
+    "uuid": "00004435-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "686f6fbc149854d2e0e803c3",
+    "brand_id": "6862251f816a3feaeabc6a8c",
+    "name": "POWER-V1-1C01",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/10/30714082-32765872-0.png"
+    ],
+    "product_name": "N104\uff5c220v",
+    "protocol_version": 1,
+    "uuid": "0000011C-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "686f649b1c90b6a2f1826903",
+    "brand_id": "6862251f816a3feaeabc6a8c",
+    "name": "POWER-V1-4E01",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/10/30714082-32765872-0.png"
+    ],
+    "product_name": "N104\uff5c110v",
+    "protocol_version": 1,
+    "uuid": "0000014E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68648ac17ad52db7e780377b",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-V1-3241",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/02/19529316-42553459-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00149381-91475862-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00151162-75512284-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00152562-95455972-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00154268-74546245-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00155785-55583799-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00157330-92725169-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00158628-89831135-0.png"
+    ],
+    "product_name": "YT800 | 220v",
+    "protocol_version": 1,
+    "uuid": "00004132-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68633c4509664cca9857be6a",
+    "brand_id": "666bbad88b0da4a4e4ffd6fa",
+    "name": "POWER-7F84",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/01/41838683-92324534-0.png"
+    ],
+    "product_name": "F400-A",
+    "protocol_version": 0,
+    "uuid": "0000847F-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68633c2d189f86d5e1c22e51",
+    "brand_id": "666bbad88b0da4a4e4ffd6fa",
+    "name": "POWER-0284",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/01/41838683-92324534-0.png"
+    ],
+    "product_name": "F400-B",
+    "protocol_version": 0,
+    "uuid": "00008402-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "686229347ad52db7e73daf81",
+    "brand_id": "6862251f816a3feaeabc6a8c",
+    "name": "POWER-018A",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+    ],
+    "product_name": "ABOK\uff5cN066\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00008A01-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6862291fce5ec90ca6f4219f",
+    "brand_id": "6862251f816a3feaeabc6a8c",
+    "name": "POWER-7E8A",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+    ],
+    "product_name": "ABOK\uff5cN066\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "00008A7E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68620c98eef9cbdc97211d28",
+    "brand_id": "68620c237ae70877b5f7e54a",
+    "name": "POWER-0089",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/06/30/56151525-95175959-0.png"
+    ],
+    "product_name": "Nomaad Atlas 2400-B",
+    "protocol_version": 0,
+    "uuid": "00008900-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "68620c5af08210a1fee9032e",
+    "brand_id": "68620c237ae70877b5f7e54a",
+    "name": "POWER-7D89",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/06/30/56151525-95175959-0.png"
+    ],
+    "product_name": "Nomaad Atlas 2400-A",
+    "protocol_version": 0,
+    "uuid": "0000897D-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "683e50e57c8de468d196abd0",
+    "brand_id": "6784bddbf2949cf721ad5a38",
+    "name": "POWER-0285",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/01/34023192-28419297-0.png"
+    ],
+    "product_name": "INDIANS\uff5cN094\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00008502-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "683e50b7bd02209f5b27c7ea",
+    "brand_id": "6784bddbf2949cf721ad5a38",
+    "name": "POWER-7F85",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/01/34023192-28419297-0.png"
+    ],
+    "product_name": "INDIANS\uff5cN094\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000857F-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6836781f6e5d2d42e67c09e6",
+    "brand_id": "666bbad88b0da4a4e4ffd6fa",
+    "name": "POWER-V1-3284",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/06/30/64093046-24283149-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00149381-91475862-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00151162-75512284-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00152562-95455972-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00154268-74546245-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00155785-55583799-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00157330-92725169-0.png",
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00158628-89831135-0.png"
+    ],
+    "product_name": "QICHANG\uff5cYT002\uff5c220v",
+    "protocol_version": 1,
+    "uuid": "00008432-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67f7a48e652341f3abf65ac3",
+    "brand_id": "67f7a34d55b3373c726362f1",
+    "name": "POWER-7E48",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72395746-77373894-0.png"
+    ],
+    "product_name": "QINGZHOU\uff5cEP1800\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000487E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67f7a471149854a900c6f8cc",
+    "brand_id": "67f7a34d55b3373c726362f1",
+    "name": "POWER-0148",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72395746-77373894-0.png"
+    ],
+    "product_name": "QINGZHOU\uff5cEP1800\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00004801-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ea59367c8de442a9d79866",
+    "brand_id": "6784be0b9755e37462ecee4e",
+    "name": "POWER-8204",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/06/16/35673946-55711157-0.png"
+    ],
+    "product_name": "QICHANG\uff5cN080\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "00000482-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ea591b7ad52d3f79d3f75f",
+    "brand_id": "6784be0b9755e37462ecee4e",
+    "name": "POWER-0504",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/06/16/35673946-55711157-0.png"
+    ],
+    "product_name": "QICHANG\uff5cN080\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00000405-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ea3f018b0da4a80c36f01d",
+    "brand_id": "67ce954fb9fb2371a72361ac",
+    "name": "POWER-7F87",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72837613-53834984-0.png"
+    ],
+    "product_name": "Hope Power 400-A",
+    "protocol_version": 0,
+    "uuid": "0000877F-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ea3ee0149854a9001cc0aa",
+    "brand_id": "67ce954fb9fb2371a72361ac",
+    "name": "POWER-0287",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72837613-53834984-0.png"
+    ],
+    "product_name": "Hope Power 400-B",
+    "protocol_version": 0,
+    "uuid": "00008702-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67e21df1a674f48993c1a7f1",
+    "brand_id": "6784be0b9755e37462ecee4e",
+    "name": "POWER-0043",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+    ],
+    "product_name": "WDF\uff5cN064\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00004300-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67e21db8fe975fc54fdea70b",
+    "brand_id": "6784be0b9755e37462ecee4e",
+    "name": "POWER-7D43",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+    ],
+    "product_name": "WDF\uff5cN064\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000437D-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67d8c2a86e5d2d6acddba32c",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-8081",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72632567-89194556-0.png"
+    ],
+    "product_name": "SYD\uff5cN079\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "00008180-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67d8c28c466d41ded4ad1f90",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-0381",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72632567-89194556-0.png"
+    ],
+    "product_name": "SYD\uff5cN079\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00008103-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67cf8e320d2b317c59dbb8cc",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-04C6",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72538067-78366928-0.png"
+    ],
+    "product_name": "BS067\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "0000C604-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67cf8e198b0da45f0156869b",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-81C6",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72538067-78366928-0.png"
+    ],
+    "product_name": "BS067\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000C681-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67cea633337a9f4a9fa677e1",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-8146",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72313924-24929134-0.png"
+    ],
+    "product_name": "BS061\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "00004681-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67cea617b9fb2371a7261247",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-0446",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72313924-24929134-0.png"
+    ],
+    "product_name": "BS061 | 220v",
+    "protocol_version": 0,
+    "uuid": "00004604-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67cea0098a5c78c37f74e422",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-7D86",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72702568-12757232-0.png"
+    ],
+    "product_name": "BS008 | 110v",
+    "protocol_version": 0,
+    "uuid": "0000867D-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce9ff2466d41ded46bcd44",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-0086",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72702568-12757232-0.png"
+    ],
+    "product_name": "BS008 | 220v",
+    "protocol_version": 0,
+    "uuid": "00008600-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce9fc2286f7c0f8c9c494c",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-7D46",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72806182-31849549-0.png"
+    ],
+    "product_name": "BS009\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000467D-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce9fab99c62422a893435b",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-0046",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72806182-31849549-0.png"
+    ],
+    "product_name": "BS009 | 220v",
+    "protocol_version": 0,
+    "uuid": "00004600-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce9e99fe975fc54f47fd51",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-0146",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72734345-53757428-0.png"
+    ],
+    "product_name": "BS065 | 220v",
+    "protocol_version": 0,
+    "uuid": "00004601-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce9e86a09a9b5aa59c7749",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-7E46",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72734345-53757428-0.png"
+    ],
+    "product_name": "BS065\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000467E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce9d68f08210ad575e5402",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-7E86",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72785754-96576531-0.png"
+    ],
+    "product_name": "BS066\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000867E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce9d56466d41ded46b70ec",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-0186",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72785754-96576531-0.png"
+    ],
+    "product_name": "BS066 | 220v",
+    "protocol_version": 0,
+    "uuid": "00008601-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce9bff652341e489dafde5",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-0246",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72508134-29386645-0.png"
+    ],
+    "product_name": "BS069 | 220v",
+    "protocol_version": 0,
+    "uuid": "00004602-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce9be5149854207f96706d",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-7F46",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72508134-29386645-0.png"
+    ],
+    "product_name": "BS069 | 110v",
+    "protocol_version": 0,
+    "uuid": "0000467F-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce9bad8b0da45f013a2e83",
+    "brand_id": "67ce954fb9fb2371a72361ac",
+    "name": "POWER-7E07",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72474737-62916728-0.png"
+    ],
+    "product_name": "Adventure Energy 1200-A",
+    "protocol_version": 0,
+    "uuid": "0000077E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce9b9999c62422a892b11b",
+    "brand_id": "67ce954fb9fb2371a72361ac",
+    "name": "POWER-0107",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72474737-62916728-0.png"
+    ],
+    "product_name": "Adventure Energy 1200-B",
+    "protocol_version": 0,
+    "uuid": "00000701-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce9b63a7c4328611e37ad1",
+    "brand_id": "67ce954fb9fb2371a72361ac",
+    "name": "POWER-0187",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72368077-21631384-0.png"
+    ],
+    "product_name": "Freedom Solar 3600-B",
+    "protocol_version": 0,
+    "uuid": "00008701-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce9b45337a9f4a9fa4e4f2",
+    "brand_id": "67ce954fb9fb2371a72361ac",
+    "name": "POWER-7E87",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72368077-21631384-0.png"
+    ],
+    "product_name": "Freedom Solar 3600-A",
+    "protocol_version": 0,
+    "uuid": "0000877E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce99f03d029caca12a23d1",
+    "brand_id": "67ce954fb9fb2371a72361ac",
+    "name": "POWER-0087",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72755282-14169534-0.png"
+    ],
+    "product_name": "Pathfinder Power 2400-B",
+    "protocol_version": 0,
+    "uuid": "00008700-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce99d17c8de46baf6e32d1",
+    "brand_id": "67ce954fb9fb2371a72361ac",
+    "name": "POWER-7D87",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72755282-14169534-0.png"
+    ],
+    "product_name": "Pathfinder Power 2400-A",
+    "protocol_version": 0,
+    "uuid": "0000877D-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce999aee97ef1479b99f26",
+    "brand_id": "67ce954fb9fb2371a72361ac",
+    "name": "POWER-7F47",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72433445-81727919-0.png"
+    ],
+    "product_name": "Titan Power 7200-A",
+    "protocol_version": 0,
+    "uuid": "0000477F-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce9973eef9cbda9c3631e3",
+    "brand_id": "67ce954fb9fb2371a72361ac",
+    "name": "POWER-0247",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72433445-81727919-0.png"
+    ],
+    "product_name": "Titan Power 7200-B",
+    "protocol_version": 0,
+    "uuid": "00004702-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67ce956b149854207f95801e",
+    "brand_id": "666bbad88b0da4a4e4ffd6fa",
+    "name": "POWER-8004",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72923888-33647417-0.png"
+    ],
+    "product_name": "F7200",
+    "protocol_version": 0,
+    "uuid": "00000480-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "67877760b9fb2371a7c2eb3f",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-7E45",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72944329-17437129-0.png"
+    ],
+    "product_name": "INDIANS\uff5cN078\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000457E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "678776f799c62422a8283d26",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-0145",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72944329-17437129-0.png"
+    ],
+    "product_name": "INDIANS\uff5cN078\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00004501-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6784becba09a9b4de0f64c37",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-0386",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72632567-89194556-0.png"
+    ],
+    "product_name": "BS006 | 220v",
+    "protocol_version": 0,
+    "uuid": "00008603-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6784beabb9fb2371a7836016",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-8086",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72632567-89194556-0.png"
+    ],
+    "product_name": "BS006 | 110v",
+    "protocol_version": 0,
+    "uuid": "00008680-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6784be7a862066d08cad208e",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-03C6",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72603300-83657858-0.png"
+    ],
+    "product_name": "BS005 | 220v",
+    "protocol_version": 0,
+    "uuid": "0000C603-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6784be52466d41ded4c0e639",
+    "brand_id": "6784bdf5fe975fc54f9e7e29",
+    "name": "POWER-80C6",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72603300-83657858-0.png"
+    ],
+    "product_name": "BS005\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000C680-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "677e411a337a9fb371d14ab2",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-0385",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72967709-81859937-0.png"
+    ],
+    "product_name": "INDIANS\uff5cN088\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00008503-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "677e40f8f2949cf7211c0310",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-8085",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72967709-81859937-0.png"
+    ],
+    "product_name": "INDIANS\uff5cN088\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "00008580-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "677c8580a7c43286117fc6c6",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-7E85",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+    ],
+    "product_name": "INDIANS\uff5cN066\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000857E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "677c855f09664cc2d4ad5795",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-0185",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+    ],
+    "product_name": "INDIANS\uff5cN066\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00008501-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6729b81fa09a9bb752c4a381",
+    "brand_id": "666bbb2bbd02209c398bd4fa",
+    "name": "POWER-7E82",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+    ],
+    "product_name": "ITWORLD\uff5cN066\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000827E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6729b809bd0220786d1242eb",
+    "brand_id": "666bbb2bbd02209c398bd4fa",
+    "name": "POWER-0182",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+    ],
+    "product_name": "ITWORLD\uff5cN066\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00008201-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6729b73c3d029cf3232af330",
+    "brand_id": "666bbb2bbd02209c398bd4fa",
+    "name": "POWER-8082",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72967709-81859937-0.png"
+    ],
+    "product_name": "ITWORLD\uff5cN079\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "00008280-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6729b6e9466d417f94f85540",
+    "brand_id": "666bbb2bbd02209c398bd4fa",
+    "name": "POWER-0382",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72967709-81859937-0.png"
+    ],
+    "product_name": "ITWORLD\uff5cN079\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00008203-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "66f2a188337a9f907c296cf9",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-0183",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73045289-25743319-0.png"
+    ],
+    "product_name": "P310-B3E01",
+    "protocol_version": 0,
+    "uuid": "00008301-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "66f2a163f08210abab0ed263",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-7E83",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73045289-25743319-0.png"
+    ],
+    "product_name": "P310-A3E01",
+    "protocol_version": 0,
+    "uuid": "0000837E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "66eb7980b9fb2347e838ea57",
+    "brand_id": "666bbad88b0da4a4e4ffd6fa",
+    "name": "POWER-0304",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72923888-33647417-0.png"
+    ],
+    "product_name": "F7200",
+    "protocol_version": 0,
+    "uuid": "00000403-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "66bdbc320d2b313577dd5600",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-0084",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73166917-19788323-0.png"
+    ],
+    "product_name": "F2400-B",
+    "protocol_version": 0,
+    "uuid": "00008400-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "66bdbc121c90b65e43ee6047",
+    "brand_id": "666bbad88b0da4a4e4ffd6fa",
+    "name": "POWER-7D84",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73166917-19788323-0.png"
+    ],
+    "product_name": "F2400-A",
+    "protocol_version": 0,
+    "uuid": "0000847D-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "66975d1f0d2b315faf1e5322",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-0343",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73005500-96494585-0.png"
+    ],
+    "product_name": "P210-B0E01",
+    "protocol_version": 0,
+    "uuid": "00004303-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "66975cf8f2949c511f549c39",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-8043",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73005500-96494585-0.png"
+    ],
+    "product_name": "P210-A0E01",
+    "protocol_version": 0,
+    "uuid": "00004380-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "666bbbf88a5c7863b1da6aa2",
+    "brand_id": "666bbb2bbd02209c398bd4fa",
+    "name": "POWER-0142",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/08/20/51099627-21121951-0.png"
+    ],
+    "product_name": "ITWORLD\uff5cN078\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00004201-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "666bbbe7466d41f585053cc0",
+    "brand_id": "666bbb2bbd02209c398bd4fa",
+    "name": "POWER-7E42",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/08/20/51099627-21121951-0.png"
+    ],
+    "product_name": "ITWORLD\uff5cN078\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000427E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6667b20f8a5c7863b13540fc",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-01C1",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2024/06/11/71513008-22852184-PS001.png"
+    ],
+    "product_name": "PS001\uff5c220v",
+    "uuid": "0000C101-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6667b1fa652341bc2fa940d2",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-7EC1",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2024/06/11/71513008-22852184-PS001.png"
+    ],
+    "product_name": "PS001\uff5c110v",
+    "uuid": "0000C17E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6661329c6e5d2ddb51e27401",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-0241",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72508134-29386645-0.png"
+    ],
+    "product_name": "N086\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00004102-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "666132870d2b315faf305643",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-7F41",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72508134-29386645-0.png"
+    ],
+    "product_name": "N086\uff5c120v/240v",
+    "protocol_version": 0,
+    "uuid": "0000417F-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "665592928b0da4a4e46abe7a",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-0281",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73207472-98177683-0.png"
+    ],
+    "product_name": "N094\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00008102-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6655927709664cbba0a4f6a6",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-7F81",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73207472-98177683-0.png"
+    ],
+    "product_name": "N094\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000817F-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6618eb546e5d2ddb5186bf39",
+    "brand_id": "666bbad88b0da4a4e4ffd6fa",
+    "name": "POWER-7F01",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73146439-54928581-0.png"
+    ],
+    "product_name": "F3600Pro-A",
+    "protocol_version": 0,
+    "uuid": "0000017F-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6618eadb09664cbba02d1a17",
+    "brand_id": "666bbad88b0da4a4e4ffd6fa",
+    "name": "POWER-0201",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73146439-54928581-0.png"
+    ],
+    "product_name": "F3600Pro-B",
+    "protocol_version": 0,
+    "uuid": "00000102-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "661647408620667bb48b2c7b",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-7DC1",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72967709-81859937-0.png"
+    ],
+    "product_name": "N029\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000C17D-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "661646d2e0ec199b1827c55b",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-7E01",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73240338-46322692-0.png"
+    ],
+    "product_name": "N033\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000017E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6616466f652341ed5e3000af",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-7D81",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73166917-19788323-0.png"
+    ],
+    "product_name": "N052\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000817D-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "6615076ae0ec199b18e90a1a",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-7E41",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72944329-17437129-0.png"
+    ],
+    "product_name": "N078\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000417E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "66028fbdfe975f74404ca3fa",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-7E81",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+    ],
+    "product_name": "N066\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000817E-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "66028f5d99c6244dcf30e390",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-0181",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+    ],
+    "product_name": "N066\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00008101-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "65f9361609664cbba081b0d4",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-7D41",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+    ],
+    "product_name": "N051\uff5c110v",
+    "protocol_version": 0,
+    "uuid": "0000417D-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "658d483dfe975f47a501ad69",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-0141",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72944329-17437129-0.png"
+    ],
+    "product_name": "N078\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00004101-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "658d47da21821b50af8206dc",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-0041",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+    ],
+    "product_name": "N051\uff5c220v",
+    "protocol_version": 0,
+    "uuid": "00004100-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "658d4776213929458d1693ef",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-00C1",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72967709-81859937-0.png"
+    ],
+    "product_name": "N029 portable power station",
+    "protocol_version": 0,
+    "uuid": "0000C100-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "658d46fe862066f18a1418e1",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-0101",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73240338-46322692-0.png"
+    ],
+    "product_name": "N033 portable power station",
+    "protocol_version": 0,
+    "uuid": "00000101-0000-1000-8000-00805F9B34FB"
+  },
+  {
+    "_id": "658d46687ad52d59324fdc6d",
+    "brand_id": "658d42c309664c1c8d548f95",
+    "name": "POWER-0081",
+    "product_imgs": [
+      "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73166917-19788323-0.png"
+    ],
+    "product_name": "N052 portable power station",
+    "protocol_version": 0,
+    "uuid": "00008100-0000-1000-8000-00805F9B34FB"
+  }
+]
+
+"client/product/pub/listProductCategoryById"
+
+== Categories ==
+[
+  {
+    "_id": "658d429921821b50af80ff4d",
+    "category_name": "Energy Storage Power",
+    "modbus_address": 17,
+    "modbus_count": 80,
+    "products": [
+      {
+        "_id": "658d46687ad52d59324fdc6d",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0081",
+        "product_name": "N052 portable power station",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73166917-19788323-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008100-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "658d46fe862066f18a1418e1",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0101",
+        "product_name": "N033 portable power station",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73240338-46322692-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00000101-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "658d4776213929458d1693ef",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-00C1",
+        "product_name": "N029 portable power station",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72967709-81859937-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000C100-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "658d47da21821b50af8206dc",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0041",
+        "product_name": "N051\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004100-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "658d483dfe975f47a501ad69",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0141",
+        "product_name": "N078\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72944329-17437129-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004101-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "65f9361609664cbba081b0d4",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7D41",
+        "product_name": "N051\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000417D-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "66028f5d99c6244dcf30e390",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0181",
+        "product_name": "N066\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008101-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "66028fbdfe975f74404ca3fa",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7E81",
+        "product_name": "N066\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000817E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6615076ae0ec199b18e90a1a",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7E41",
+        "product_name": "N078\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72944329-17437129-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000417E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6616466f652341ed5e3000af",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7D81",
+        "product_name": "N052\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73166917-19788323-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000817D-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "661646d2e0ec199b1827c55b",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7E01",
+        "product_name": "N033\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73240338-46322692-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000017E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "661647408620667bb48b2c7b",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7DC1",
+        "product_name": "N029\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72967709-81859937-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000C17D-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6618eadb09664cbba02d1a17",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0201",
+        "product_name": "F3600Pro-B",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73146439-54928581-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00000102-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6618eb546e5d2ddb5186bf39",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7F01",
+        "product_name": "F3600Pro-A",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73146439-54928581-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000017F-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6655927709664cbba0a4f6a6",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7F81",
+        "product_name": "N094\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73207472-98177683-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000817F-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "665592928b0da4a4e46abe7a",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0281",
+        "product_name": "N094\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73207472-98177683-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008102-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "666132870d2b315faf305643",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7F41",
+        "product_name": "N086\uff5c120v/240v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72508134-29386645-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000417F-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6661329c6e5d2ddb51e27401",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0241",
+        "product_name": "N086\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72508134-29386645-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004102-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "666bbbe7466d41f585053cc0",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7E42",
+        "product_name": "ITWORLD\uff5cN078\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/08/20/51099627-21121951-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000427E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "666bbbf88a5c7863b1da6aa2",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0142",
+        "product_name": "ITWORLD\uff5cN078\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/08/20/51099627-21121951-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004201-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "66975cf8f2949c511f549c39",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-8043",
+        "product_name": "P210-A0E01",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73005500-96494585-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004380-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "66975d1f0d2b315faf1e5322",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0343",
+        "product_name": "P210-B0E01",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73005500-96494585-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004303-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "66bdbc121c90b65e43ee6047",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7D84",
+        "product_name": "F2400-A",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73166917-19788323-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000847D-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "66bdbc320d2b313577dd5600",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0084",
+        "product_name": "F2400-B",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73166917-19788323-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008400-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "66eb7980b9fb2347e838ea57",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0304",
+        "product_name": "F7200",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72923888-33647417-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00000403-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "66f2a163f08210abab0ed263",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7E83",
+        "product_name": "P310-A3E01",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73045289-25743319-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000837E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "66f2a188337a9f907c296cf9",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0183",
+        "product_name": "P310-B3E01",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/73045289-25743319-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008301-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6729b6e9466d417f94f85540",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0382",
+        "product_name": "ITWORLD\uff5cN079\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72967709-81859937-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008203-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6729b73c3d029cf3232af330",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-8082",
+        "product_name": "ITWORLD\uff5cN079\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72967709-81859937-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008280-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6729b809bd0220786d1242eb",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0182",
+        "product_name": "ITWORLD\uff5cN066\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008201-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6729b81fa09a9bb752c4a381",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7E82",
+        "product_name": "ITWORLD\uff5cN066\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000827E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "677c855f09664cc2d4ad5795",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0185",
+        "product_name": "INDIANS\uff5cN066\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008501-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "677c8580a7c43286117fc6c6",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7E85",
+        "product_name": "INDIANS\uff5cN066\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000857E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "677e40f8f2949cf7211c0310",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-8085",
+        "product_name": "INDIANS\uff5cN088\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72967709-81859937-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008580-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "677e411a337a9fb371d14ab2",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0385",
+        "product_name": "INDIANS\uff5cN088\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72967709-81859937-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008503-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6784be52466d41ded4c0e639",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-80C6",
+        "product_name": "BS005\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72603300-83657858-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000C680-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6784be7a862066d08cad208e",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-03C6",
+        "product_name": "BS005 | 220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72603300-83657858-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000C603-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6784beabb9fb2371a7836016",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-8086",
+        "product_name": "BS006 | 110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72632567-89194556-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008680-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6784becba09a9b4de0f64c37",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0386",
+        "product_name": "BS006 | 220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72632567-89194556-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008603-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "678776f799c62422a8283d26",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0145",
+        "product_name": "INDIANS\uff5cN078\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72944329-17437129-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004501-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67877760b9fb2371a7c2eb3f",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7E45",
+        "product_name": "INDIANS\uff5cN078\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72944329-17437129-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000457E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce956b149854207f95801e",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-8004",
+        "product_name": "F7200",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72923888-33647417-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00000480-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce9973eef9cbda9c3631e3",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0247",
+        "product_name": "Titan Power 7200-B",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72433445-81727919-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004702-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce999aee97ef1479b99f26",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7F47",
+        "product_name": "Titan Power 7200-A",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72433445-81727919-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000477F-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce99d17c8de46baf6e32d1",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7D87",
+        "product_name": "Pathfinder Power 2400-A",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72755282-14169534-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000877D-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce99f03d029caca12a23d1",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0087",
+        "product_name": "Pathfinder Power 2400-B",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72755282-14169534-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008700-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce9b45337a9f4a9fa4e4f2",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7E87",
+        "product_name": "Freedom Solar 3600-A",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72368077-21631384-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000877E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce9b63a7c4328611e37ad1",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0187",
+        "product_name": "Freedom Solar 3600-B",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72368077-21631384-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008701-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce9b9999c62422a892b11b",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0107",
+        "product_name": "Adventure Energy 1200-B",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72474737-62916728-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00000701-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce9bad8b0da45f013a2e83",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7E07",
+        "product_name": "Adventure Energy 1200-A",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72474737-62916728-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000077E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce9be5149854207f96706d",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7F46",
+        "product_name": "BS069 | 110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72508134-29386645-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000467F-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce9bff652341e489dafde5",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0246",
+        "product_name": "BS069 | 220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72508134-29386645-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004602-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce9d56466d41ded46b70ec",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0186",
+        "product_name": "BS066 | 220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72785754-96576531-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008601-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce9d68f08210ad575e5402",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7E86",
+        "product_name": "BS066\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72785754-96576531-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000867E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce9e86a09a9b5aa59c7749",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7E46",
+        "product_name": "BS065\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72734345-53757428-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000467E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce9e99fe975fc54f47fd51",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0146",
+        "product_name": "BS065 | 220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72734345-53757428-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004601-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce9fab99c62422a893435b",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0046",
+        "product_name": "BS009 | 220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72806182-31849549-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004600-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce9fc2286f7c0f8c9c494c",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7D46",
+        "product_name": "BS009\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72806182-31849549-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000467D-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ce9ff2466d41ded46bcd44",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0086",
+        "product_name": "BS008 | 220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72702568-12757232-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008600-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67cea0098a5c78c37f74e422",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7D86",
+        "product_name": "BS008 | 110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72702568-12757232-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000867D-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67cea617b9fb2371a7261247",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0446",
+        "product_name": "BS061 | 220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72313924-24929134-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004604-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67cea633337a9f4a9fa677e1",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-8146",
+        "product_name": "BS061\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72313924-24929134-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004681-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67cf8e198b0da45f0156869b",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-81C6",
+        "product_name": "BS067\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72538067-78366928-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000C681-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67cf8e320d2b317c59dbb8cc",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-04C6",
+        "product_name": "BS067\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72538067-78366928-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000C604-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67d8c28c466d41ded4ad1f90",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0381",
+        "product_name": "SYD\uff5cN079\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72632567-89194556-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008103-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67d8c2a86e5d2d6acddba32c",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-8081",
+        "product_name": "SYD\uff5cN079\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72632567-89194556-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008180-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67e21db8fe975fc54fdea70b",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7D43",
+        "product_name": "WDF\uff5cN064\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000437D-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67e21df1a674f48993c1a7f1",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0043",
+        "product_name": "WDF\uff5cN064\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004300-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ea3ee0149854a9001cc0aa",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0287",
+        "product_name": "Hope Power 400-B",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72837613-53834984-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008702-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ea3f018b0da4a80c36f01d",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7F87",
+        "product_name": "Hope Power 400-A",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72837613-53834984-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000877F-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ea591b7ad52d3f79d3f75f",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0504",
+        "product_name": "QICHANG\uff5cN080\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/06/16/35673946-55711157-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00000405-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67ea59367c8de442a9d79866",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-8204",
+        "product_name": "QICHANG\uff5cN080\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/06/16/35673946-55711157-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00000482-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67f7a471149854a900c6f8cc",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0148",
+        "product_name": "QINGZHOU\uff5cEP1800\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72395746-77373894-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004801-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "67f7a48e652341f3abf65ac3",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7E48",
+        "product_name": "QINGZHOU\uff5cEP1800\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72395746-77373894-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000487E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "683e50b7bd02209f5b27c7ea",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7F85",
+        "product_name": "INDIANS\uff5cN094\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/01/34023192-28419297-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000857F-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "683e50e57c8de468d196abd0",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0285",
+        "product_name": "INDIANS\uff5cN094\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/01/34023192-28419297-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008502-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68620c5af08210a1fee9032e",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7D89",
+        "product_name": "Nomaad Atlas 2400-A",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/06/30/56151525-95175959-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000897D-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68620c98eef9cbdc97211d28",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0089",
+        "product_name": "Nomaad Atlas 2400-B",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/06/30/56151525-95175959-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008900-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6862291fce5ec90ca6f4219f",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7E8A",
+        "product_name": "ABOK\uff5cN066\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008A7E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "686229347ad52db7e73daf81",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-018A",
+        "product_name": "ABOK\uff5cN066\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72865867-51241871-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008A01-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68633c2d189f86d5e1c22e51",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0284",
+        "product_name": "F400-B",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/01/41838683-92324534-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008402-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68633c4509664cca9857be6a",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7F84",
+        "product_name": "F400-A",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/01/41838683-92324534-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000847F-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68805a2cfe975fd64c840d91",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0543",
+        "product_name": "WDF\uff5cN102\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/23/42153804-88285366-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004305-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68805a56337a9f512185c24e",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-8243",
+        "product_name": "WDF\uff5cN102\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/23/42153804-88285366-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004382-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68805e2b3f1a470b6e11369a",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-8102",
+        "product_name": "ITWORLD\uff5cN098\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/23/43176695-99733237-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00000281-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68805e41c3b5c9ccb022467c",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0402 ",
+        "product_name": "ITWORLD\uff5cN098\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/23/43176695-99733237-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00000204-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68896faa7ad52db7e74becd5",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-9B43",
+        "product_name": "WDF\uff5cN102\uff5c120v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/23/42153804-88285366-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000439B-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68a5290da7c43263da6fc717",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-014A",
+        "product_name": "ABOK\uff5cN078\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/06/91050150-35752268-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004A01-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68a52927466d413f7006ff7e",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7E4D",
+        "product_name": "DAQING\uff5cN078\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72944329-17437129-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004D7E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68a52a40816a3feaea8e8c47",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-024B",
+        "product_name": "JIUYI\uff5cN086\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/08/20/55457820-54115845-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004B02-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68a52a56f08210a1febcbfe0",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7F4B",
+        "product_name": "JIUYI\uff5cN086\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/08/20/55457820-54115845-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004B7F-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68bff32809664cca98a4af62",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0441",
+        "product_name": "SYD\uff5cN069\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/09/09/10984641-38816826-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004104-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68bff350f2949cb2ff0d0029",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-8141",
+        "product_name": "SYD\uff5cN069\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/09/09/10984641-38816826-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004181-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68d0c551eef9cb5e0d649700",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-024C",
+        "product_name": "OffGrid Pro 7200 - B",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/09/22/26182021-21845834-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004C02-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68d0c57609664cca982777f4",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7F4C",
+        "product_name": "OffGrid Pro 7200",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/09/22/26182021-21845834-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004C7F-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68ea134a99c6240906e6b0a2",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-05C1",
+        "product_name": "SYD\uff5cN085\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/10/11/70824873-71393936-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000C105-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68eb20b0189f86b5142fcb9c",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-82C1",
+        "product_name": "SYD\uff5cN085\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/10/11/70824873-71393936-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000C182-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "69081e408b0da4aae495b52e",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-014D",
+        "product_name": "DAQING\uff5cN078\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72944329-17437129-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004D01-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "690bf387f2949cef37910617",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-7E4A",
+        "product_name": "ABOK\uff5cN078\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/06/91050150-35752268-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00004A7E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "690d6c43bd0220da8866f327",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0482",
+        "product_name": "PS1200-B",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/07/87360770-49953298-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008204-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "690d6c7d9755e3a59affe44e",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-8182",
+        "product_name": "PS1200-A",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/07/87360770-49953298-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008281-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "69131b60f08210f2f1cc546e",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0481",
+        "product_name": "N109-B",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/07/87360770-49953298-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008104-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "69131b7ace5ec91013792327",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-8181",
+        "product_name": "N109-A",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/07/87360770-49953298-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008181-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6923d98cc3b5c983b52eac53",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0486",
+        "product_name": "BS068\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/07/87360770-49953298-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008604-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6923d9d12eea65a7373e66e7",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-8186",
+        "product_name": "BS068\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/07/87360770-49953298-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00008681-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "692412b3a09a9bbb81875d0d",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-8106",
+        "product_name": "BS064\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/24/72746039-87783962-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00000681-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "692413c00d2b31254ad46e29",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-0406",
+        "product_name": "BS064\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/24/72746039-87783962-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "00000604-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "692415db286f7c4cbb3485bb",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-81C1",
+        "product_name": "N067 | SYD | 110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/24/72569341-77314399-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000C181-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "692416223f1a471b9d367f00",
+        "category_id": "658d429921821b50af80ff4d",
+        "name": "POWER-04C1",
+        "product_name": "N067 | SYD | 220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/24/72569341-77314399-0.png"
+        ],
+        "protocol_version": 0,
+        "uuid": "0000C104-0000-1000-8000-00805F9B34FB"
+      }
+    ]
+  },
+  {
+    "_id": "661f98117ad52dfccc6a67d9",
+    "category_name": "Switch Box",
+    "modbus_address": 21,
+    "modbus_count": 30,
+    "products": [
+      {
+        "_id": "6667b1fa652341bc2fa940d2",
+        "category_id": "661f98117ad52dfccc6a67d9",
+        "name": "POWER-7EC1",
+        "product_name": "PS001\uff5c110v",
+        "uuid": "0000C17E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6667b20f8a5c7863b13540fc",
+        "category_id": "661f98117ad52dfccc6a67d9",
+        "name": "POWER-01C1",
+        "product_name": "PS001\uff5c220v",
+        "uuid": "0000C101-0000-1000-8000-00805F9B34FB"
+      }
+    ]
+  },
+  {
+    "_id": "681c188bc3b5c9ba15217b9d",
+    "category_name": "Balcony Stored",
+    "modbus_address": 18,
+    "modbus_count": 100,
+    "products": [
+      {
+        "_id": "6836781f6e5d2d42e67c09e6",
+        "category_id": "681c188bc3b5c9ba15217b9d",
+        "name": "POWER-V1-3284",
+        "product_name": "QICHANG\uff5cYT002\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/06/30/64093046-24283149-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00149381-91475862-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00151162-75512284-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00152562-95455972-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00154268-74546245-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00155785-55583799-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00157330-92725169-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00158628-89831135-0.png"
+        ],
+        "protocol_version": 1,
+        "uuid": "00008432-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68648ac17ad52db7e780377b",
+        "category_id": "681c188bc3b5c9ba15217b9d",
+        "display_sectors": [],
+        "name": "POWER-V1-3241",
+        "product_name": "YT800 | 220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/02/19529316-42553459-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00149381-91475862-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00151162-75512284-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00152562-95455972-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00154268-74546245-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00155785-55583799-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00157330-92725169-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00158628-89831135-0.png"
+        ],
+        "protocol_version": 1,
+        "uuid": "00004132-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "688b066cf08210a1fe28c0f5",
+        "category_id": "681c188bc3b5c9ba15217b9d",
+        "display_sectors": [],
+        "name": "POWER-V1-1941",
+        "product_name": "YT800 | 220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/02/19529316-42553459-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00149381-91475862-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00151162-75512284-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00152562-95455972-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00154268-74546245-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00155785-55583799-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00157330-92725169-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00158628-89831135-0.png"
+        ],
+        "protocol_version": 1,
+        "uuid": "00004119-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "688b0684213929ab1d969fae",
+        "category_id": "681c188bc3b5c9ba15217b9d",
+        "name": "POWER-V1-1984",
+        "product_name": "QICHANG\uff5cYT002\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/06/30/64093046-24283149-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00149381-91475862-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00151162-75512284-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00152562-95455972-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00154268-74546245-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00155785-55583799-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00157330-92725169-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00158628-89831135-0.png"
+        ],
+        "protocol_version": 1,
+        "uuid": "00008419-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68bc0589a674f439f975d3ff",
+        "category_id": "681c188bc3b5c9ba15217b9d",
+        "display_sectors": [],
+        "name": "POWER-V1-19C3",
+        "product_name": "YT003 | 220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/09/06/52648321-82567482-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00149381-91475862-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00151162-75512284-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00152562-95455972-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00154268-74546245-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00155785-55583799-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00157330-92725169-0.png",
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/28/00158628-89831135-0.png"
+        ],
+        "protocol_version": 1,
+        "uuid": "0000C319-0000-1000-8000-00805F9B34FB"
+      }
+    ]
+  },
+  {
+    "_id": "68b17ab3e0ec192f194bf7a1",
+    "category_name": "\u50a8\u80fd\u7535\u6e90-V1",
+    "modbus_address": 17,
+    "modbus_count": 100,
+    "products": [
+      {
+        "_id": "686f649b1c90b6a2f1826903",
+        "category_id": "68b17ab3e0ec192f194bf7a1",
+        "display_sectors": [
+          {
+            "_id": "6854ae1c6523417562bda8a9",
+            "sector_name": "grid_charge_chart"
+          }
+        ],
+        "name": "POWER-V1-4E01",
+        "product_name": "N104\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/10/30714082-32765872-0.png"
+        ],
+        "protocol_version": 1,
+        "uuid": "0000014E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "686f6fbc149854d2e0e803c3",
+        "category_id": "68b17ab3e0ec192f194bf7a1",
+        "display_sectors": [
+          {
+            "_id": "6854ae1c6523417562bda8a9",
+            "sector_name": "grid_charge_chart"
+          }
+        ],
+        "name": "POWER-V1-1C01",
+        "product_name": "N104\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/07/10/30714082-32765872-0.png"
+        ],
+        "protocol_version": 1,
+        "uuid": "0000011C-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "6878d761a674f4a2c75b493a",
+        "category_id": "68b17ab3e0ec192f194bf7a1",
+        "display_sectors": [
+          {
+            "_id": "68526546bd02209f5b40285c",
+            "sector_name": "grid_output_setting"
+          },
+          {
+            "_id": "68526562337a9f5121c3b222",
+            "sector_name": "ac_charge_setting"
+          },
+          {
+            "_id": "685e1492149854d2e01292f8",
+            "sector_name": "device_time"
+          }
+        ],
+        "name": "POWER-V1-3544",
+        "product_name": "F7200",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72923888-33647417-0.png"
+        ],
+        "protocol_version": 1,
+        "uuid": "00004435-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "68c900f52eea65b0f1bbbbba",
+        "category_id": "68b17ab3e0ec192f194bf7a1",
+        "display_sectors": [
+          {
+            "_id": "68526562337a9f5121c3b222",
+            "sector_name": "ac_charge_setting"
+          },
+          {
+            "_id": "685e1492149854d2e01292f8",
+            "sector_name": "device_time"
+          }
+        ],
+        "name": "POWER-V1-B244",
+        "product_name": "F7200",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/05/08/72923888-33647417-0.png"
+        ],
+        "protocol_version": 1,
+        "uuid": "000044B2-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "690c0f36286f7cfef640a5c5",
+        "category_id": "68b17ab3e0ec192f194bf7a1",
+        "display_sectors": [
+          {
+            "_id": "6854ae1c6523417562bda8a9",
+            "sector_name": "grid_charge_chart"
+          }
+        ],
+        "name": "POWER-V1-4E83",
+        "product_name": "WDF\uff5cN113\uff5c110v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/05/36271172-49953159-0.png"
+        ],
+        "protocol_version": 1,
+        "uuid": "0000834E-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "690c0f5c862066a338ea88a1",
+        "category_id": "68b17ab3e0ec192f194bf7a1",
+        "display_sectors": [
+          {
+            "_id": "6854ae1c6523417562bda8a9",
+            "sector_name": "grid_charge_chart"
+          }
+        ],
+        "name": "POWER-V1-1C83",
+        "product_name": "WDF\uff5cN113\uff5c220v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/05/36271172-49953159-0.png"
+        ],
+        "protocol_version": 1,
+        "uuid": "0000831C-0000-1000-8000-00805F9B34FB"
+      },
+      {
+        "_id": "691421302139294f814fd77f",
+        "category_id": "68b17ab3e0ec192f194bf7a1",
+        "display_sectors": [
+          {
+            "_id": "6854ae1c6523417562bda8a9",
+            "sector_name": "grid_charge_chart"
+          }
+        ],
+        "name": "POWER-V1-B283",
+        "product_name": "WDF\uff5cN113\uff5c120v",
+        "product_thumbnails": [
+          "https://mp-6c382a98-49b8-40ba-b761-645d83e8ee74.cdn.bspapp.com/2025/11/05/36271172-49953159-0.png"
+        ],
+        "protocol_version": 1,
+        "uuid": "000083B2-0000-1000-8000-00805F9B34FB"
+      }
+    ]
+  },
+  {
+    "_id": "691688821c90b602bba305c4",
+    "category_name": "DC-DC converter",
+    "modbus_address": 17,
+    "modbus_count": 20,
+    "products": []
+  }
+]
