@@ -8,3 +8,7 @@ It uses ble for local connection to the power station and therefore requires no 
 1. Copy `custom_components/fossibot` into your Home Assistant `config` directory.
 2. Restart Home Assistant so it discovers the integration.
 3. Ensure Home Assistant’s Bluetooth integration is enabled for devices to be discovered.
+
+## Sensors
+
+![Sensors](/docs/sensors.png?raw=true "Sensors")
