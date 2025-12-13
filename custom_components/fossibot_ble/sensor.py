@@ -50,6 +50,12 @@ class FossibotSensorDescription(SensorEntityDescription):
     value_fn: Optional[Callable[[int], float | int]] = None
 
 
+def _cap_remaining_discharge_minutes(raw: int) -> int:
+    """Cap remaining discharge time at 99 hours (returned in minutes)."""
+    MAX_MINUTES = 99 * 60
+    return min(raw, MAX_MINUTES)
+
+
 SENSOR_DESCRIPTIONS: tuple[FossibotSensorDescription, ...] = (
     FossibotSensorDescription(
         key="dc_input",
@@ -132,6 +138,7 @@ SENSOR_DESCRIPTIONS: tuple[FossibotSensorDescription, ...] = (
         device_class=SensorDeviceClass.DURATION,
         state_class=SensorStateClass.MEASUREMENT,
         register=REGISTER_REMAINING_DISCHARGE_TIME,
+        value_fn=_cap_remaining_discharge_minutes,
     ),
 )
 
