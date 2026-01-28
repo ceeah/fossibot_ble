@@ -17,3 +17,7 @@ MIN_RECONNECT_DELAY = 5
 MAX_RECONNECT_DELAY = 120
 KEEPALIVE_INTERVAL = 90  # seconds between data sanity checks
 MAX_KEEPALIVE_MISSES = 2  # reconnect after this many missed frames
+
+# Adapter error handling
+ADAPTER_ERROR_BACKOFF = 10  # seconds to wait after adapter not found error
+MAX_ADAPTER_ERROR_RETRIES = 3  # reset client after this many adapter errors

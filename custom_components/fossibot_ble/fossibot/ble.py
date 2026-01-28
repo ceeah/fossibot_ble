@@ -7,6 +7,7 @@ from contextlib import suppress
 from typing import AsyncIterator, Awaitable, Callable, Optional, Tuple
 
 from bleak import BleakClient
+from bleak.exc import BleakError
 
 from .modbus import (
     MODBUS_DEVICE_ADDRESS,
@@ -66,7 +67,19 @@ class FossibotBleClient:
         if self._connected:
             return
         LOGGER.info("Connecting to device %s", self.mac_address)
-        await self._client.connect()
+        try:
+            await self._client.connect()
+        except BleakError as e:
+            # Adapter may have moved to a different hci device
+            if "adapter" in str(e).lower() and "not found" in str(e).lower():
+                LOGGER.warning(
+                    "Adapter for device %s not found: %s. Device may have moved to different adapter.",
+                    self.mac_address,
+                    e,
+                )
+                # Re-raise with adapter error flag for runtime to handle
+                raise
+            raise
         self._connected = True
         LOGGER.info("Connection successful")
 

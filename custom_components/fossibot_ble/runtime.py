@@ -8,6 +8,7 @@ from contextlib import suppress
 from datetime import datetime
 from typing import Dict, Optional
 
+from bleak.exc import BleakError
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.dispatcher import async_dispatcher_send
@@ -16,10 +17,12 @@ from homeassistant.util import dt as dt_util
 from .fossibot import FossibotBleClient, ModbusReadFrame
 
 from .const import (
+    ADAPTER_ERROR_BACKOFF,
     CONF_DEVICE_NAME,
     CONF_MAC,
     DOMAIN,
     KEEPALIVE_INTERVAL,
+    MAX_ADAPTER_ERROR_RETRIES,
     MAX_KEEPALIVE_MISSES,
     MAX_RECONNECT_DELAY,
     MIN_RECONNECT_DELAY,
@@ -45,6 +48,7 @@ class FossibotRuntime:
         self._register_values: Dict[int, int] = {}
         self._last_update: Optional[datetime] = None
         self._available = False
+        self._adapter_error_count = 0
 
         self.update_signal = f"{DOMAIN}_{entry.entry_id}_update"
         self.availability_signal = f"{DOMAIN}_{entry.entry_id}_availability"
@@ -92,18 +96,45 @@ class FossibotRuntime:
             try:
                 await self._connect()
                 reconnect_delay = MIN_RECONNECT_DELAY
+                self._adapter_error_count = 0
                 await self._process_frames()
             except asyncio.CancelledError:
                 break
+            except BleakError as exc:
+                if "adapter" in str(exc).lower() and "not found" in str(exc).lower():
+                    # Adapter moved or unavailable - use longer backoff
+                    self._adapter_error_count += 1
+                    LOGGER.warning(
+                        "Adapter error for %s (attempt %s/%s): %s. Waiting %ss before retry.",
+                        self._mac,
+                        self._adapter_error_count,
+                        MAX_ADAPTER_ERROR_RETRIES,
+                        exc,
+                        ADAPTER_ERROR_BACKOFF,
+                    )
+                    if self._adapter_error_count >= MAX_ADAPTER_ERROR_RETRIES:
+                        # Reset client after multiple adapter errors
+                        LOGGER.info(
+                            "Resetting BLE client for %s after %s adapter errors",
+                            self._mac,
+                            self._adapter_error_count,
+                        )
+                        self._client = FossibotBleClient(self._mac)
+                        self._adapter_error_count = 0
+                    reconnect_delay = ADAPTER_ERROR_BACKOFF
+                else:
+                    # Other Bleak errors - standard exponential backoff
+                    LOGGER.warning("BLE error for %s: %s", self._mac, exc)
+                    reconnect_delay = min(reconnect_delay * 2, MAX_RECONNECT_DELAY)
             except Exception as exc:  # pragma: no cover - defensive logging
                 LOGGER.warning("BLE loop error for %s: %s", self._mac, exc)
+                reconnect_delay = min(reconnect_delay * 2, MAX_RECONNECT_DELAY)
             finally:
                 await self._cleanup_client()
                 if self._stopped:
                     break
                 self._set_available(False)
                 await asyncio.sleep(reconnect_delay)
-                reconnect_delay = min(reconnect_delay * 2, MAX_RECONNECT_DELAY)
 
     async def _connect(self) -> None:
         LOGGER.info("Connecting to FossiBOT device %s", self._mac)
