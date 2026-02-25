@@ -8,6 +8,10 @@ from typing import AsyncIterator, Awaitable, Callable, Optional, Tuple
 
 from bleak import BleakClient
 from bleak.exc import BleakError
+try:
+    from bleak_retry_connector import establish_connection
+except ImportError:  # pragma: no cover - optional in some environments
+    establish_connection = None
 
 from .modbus import (
     MODBUS_DEVICE_ADDRESS,
@@ -36,18 +40,20 @@ class FossibotBleClient:
         self,
         mac_address: str,
         *,
+        ble_device: object | None = None,
         start_register: int = MODBUS_READ_START,
         register_count: int = MODBUS_READ_COUNT,
         device_address: int = MODBUS_DEVICE_ADDRESS,
         function_code: int = MODBUS_FCN_READ_INPUT_REGISTER,
     ) -> None:
         self.mac_address = mac_address
+        self._ble_device = ble_device
         self.start_register = start_register
         self.register_count = register_count
         self.device_address = device_address
         self.function_code = function_code
 
-        self._client = BleakClient(mac_address)
+        self._client: BleakClient | None = None
         self._connected = False
         self._notifications_started = False
         self._frame_callback: Optional[FrameCallback] = None
@@ -68,7 +74,7 @@ class FossibotBleClient:
             return
         LOGGER.info("Connecting to device %s", self.mac_address)
         try:
-            await self._client.connect()
+            self._client = await self._establish_client()
         except BleakError as e:
             # Adapter may have moved to a different hci device
             if "adapter" in str(e).lower() and "not found" in str(e).lower():
@@ -79,16 +85,18 @@ class FossibotBleClient:
                 )
                 # Re-raise with adapter error flag for runtime to handle
                 raise
+            self._client = None
             raise
         self._connected = True
         LOGGER.info("Connection successful")
 
-        service_cache = self._client.services
+        client = self._require_client()
+        service_cache = client.services
         if service_cache is None:
-            get_services = getattr(self._client, "get_services", None)
+            get_services = getattr(client, "get_services", None)
             if callable(get_services):
                 await get_services()
-                service_cache = self._client.services
+                service_cache = client.services
         if service_cache is None:
             raise RuntimeError("Unable to enumerate BLE services on device")
 
@@ -104,13 +112,15 @@ class FossibotBleClient:
     async def disconnect(self) -> None:
         """Stop notifications (if active) and close the BLE connection."""
         await self.stop_notifications()
-        if not self._connected:
+        client = self._client
+        if not self._connected or client is None:
             return
         try:
-            await self._client.disconnect()
+            await client.disconnect()
             LOGGER.debug("Disconnected from device.")
         finally:
             self._connected = False
+            self._client = None
 
     async def subscribe_notifications(self, frame_callback: FrameCallback) -> None:
         """Subscribe for Modbus notifications."""
@@ -119,7 +129,9 @@ class FossibotBleClient:
         if self._notifications_started:
             raise RuntimeError("Notifications already active")
         self._frame_callback = frame_callback
-        await self._client.start_notify(MODBUS_NOTIFY_UUID, self._handle_notification)
+        await self._require_client().start_notify(
+            MODBUS_NOTIFY_UUID, self._handle_notification
+        )
         self._notifications_started = True
 
     async def stop_notifications(self) -> None:
@@ -127,7 +139,7 @@ class FossibotBleClient:
         if not self._notifications_started:
             return
         try:
-            await self._client.stop_notify(MODBUS_NOTIFY_UUID)
+            await self._require_client().stop_notify(MODBUS_NOTIFY_UUID)
             LOGGER.debug("Notifications stopped.")
         finally:
             self._notifications_started = False
@@ -138,7 +150,47 @@ class FossibotBleClient:
         if not self._connected:
             raise RuntimeError("Client must be connected before sending commands")
         LOGGER.debug("Sending Modbus read request %s", self._request_payload.hex())
-        await self._client.write_gatt_char(MODBUS_WRITE_UUID, self._request_payload)
+        await self._require_client().write_gatt_char(
+            MODBUS_WRITE_UUID, self._request_payload
+        )
+
+    def set_ble_device(self, ble_device: object | None) -> None:
+        """Update the HA-resolved BLEDevice used for the next connection attempt."""
+        self._ble_device = ble_device
+
+    async def _establish_client(self) -> BleakClient:
+        """Create and connect a fresh Bleak client for the current backend state."""
+        target = self._ble_device or self.mac_address
+        if establish_connection is not None:
+            try:
+                LOGGER.debug(
+                    "Using bleak_retry_connector for %s connection establishment",
+                    self.mac_address,
+                )
+                return await establish_connection(
+                    BleakClient,
+                    target,
+                    self.mac_address,
+                )
+            except AttributeError as exc:
+                # Some environments require a BLEDevice object instead of an address string.
+                # Fall back to plain BleakClient.connect() instead of failing the runtime loop.
+                LOGGER.debug(
+                    "bleak_retry_connector incompatible for %s with address-only connect "
+                    "(%s); falling back to BleakClient.connect()",
+                    self.mac_address,
+                    exc,
+                )
+
+        client = BleakClient(target)
+        await client.connect()
+        return client
+
+    def _require_client(self) -> BleakClient:
+        client = self._client
+        if client is None:
+            raise RuntimeError("BLE client is not initialized")
+        return client
 
     def _handle_notification(self, _sender: int, data: bytearray) -> None:
         payload = bytes(data)

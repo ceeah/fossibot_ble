@@ -9,6 +9,7 @@ from datetime import datetime
 from typing import Dict, Optional
 
 from bleak.exc import BleakError
+from homeassistant.components import bluetooth
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.dispatcher import async_dispatcher_send
@@ -29,6 +30,15 @@ from .const import (
 )
 
 LOGGER = logging.getLogger(__name__)
+
+
+def _is_adapter_not_found_error(exc: BleakError) -> bool:
+    message = str(exc).lower()
+    return "adapter" in message and "not found" in message
+
+
+def _is_connection_slot_error(exc: BleakError) -> bool:
+    return "available connection slot" in str(exc).lower()
 
 
 class FossibotRuntime:
@@ -101,8 +111,8 @@ class FossibotRuntime:
             except asyncio.CancelledError:
                 break
             except BleakError as exc:
-                if "adapter" in str(exc).lower() and "not found" in str(exc).lower():
-                    # Adapter moved or unavailable - use longer backoff
+                if _is_adapter_not_found_error(exc):
+                    # Adapter moved or unavailable - use longer backoff and rebuild state.
                     self._adapter_error_count += 1
                     LOGGER.warning(
                         "Adapter error for %s (attempt %s/%s): %s. Waiting %ss before retry.",
@@ -122,8 +132,21 @@ class FossibotRuntime:
                         self._client = FossibotBleClient(self._mac)
                         self._adapter_error_count = 0
                     reconnect_delay = ADAPTER_ERROR_BACKOFF
+                elif _is_connection_slot_error(exc):
+                    # Temporary scanner/backend capacity issue. Recreate client so the next
+                    # attempt rebinds against the current HA Bluetooth backend state.
+                    self._adapter_error_count = 0
+                    self._client = FossibotBleClient(self._mac)
+                    reconnect_delay = max(MIN_RECONNECT_DELAY, ADAPTER_ERROR_BACKOFF)
+                    LOGGER.warning(
+                        "No BLE connection slot available for %s. Retrying in %ss: %s",
+                        self._mac,
+                        reconnect_delay,
+                        exc,
+                    )
                 else:
                     # Other Bleak errors - standard exponential backoff
+                    self._adapter_error_count = 0
                     LOGGER.warning("BLE error for %s: %s", self._mac, exc)
                     reconnect_delay = min(reconnect_delay * 2, MAX_RECONNECT_DELAY)
             except Exception as exc:  # pragma: no cover - defensive logging
@@ -138,6 +161,8 @@ class FossibotRuntime:
 
     async def _connect(self) -> None:
         LOGGER.info("Connecting to FossiBOT device %s", self._mac)
+        ble_device = self._resolve_ble_device()
+        self._client.set_ble_device(ble_device)
         await self._client.connect()
         self._queue = asyncio.Queue()
         await self._client.subscribe_notifications(self._handle_frame)
@@ -180,6 +205,32 @@ class FossibotRuntime:
             return
         self._available = available
         async_dispatcher_send(self._hass, self.availability_signal, available)
+
+    def _resolve_ble_device(self) -> object | None:
+        """Resolve the current HA BLEDevice for this address, if available."""
+        try:
+            ble_device = bluetooth.async_ble_device_from_address(
+                self._hass,
+                self._mac,
+                connectable=True,
+            )
+        except TypeError:
+            # Older HA versions may not support the connectable kwarg.
+            ble_device = bluetooth.async_ble_device_from_address(self._hass, self._mac)
+        except Exception as exc:  # pragma: no cover - defensive logging
+            LOGGER.debug(
+                "Failed to resolve BLEDevice for %s from HA bluetooth registry: %s",
+                self._mac,
+                exc,
+            )
+            return None
+
+        if ble_device is None:
+            LOGGER.debug(
+                "No HA BLEDevice currently available for %s; using address-only connect",
+                self._mac,
+            )
+        return ble_device
 
     async def _cleanup_client(self) -> None:
         with suppress(Exception):
