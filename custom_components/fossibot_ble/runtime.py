@@ -103,13 +103,15 @@ class FossibotRuntime:
     async def _run(self) -> None:
         reconnect_delay = MIN_RECONNECT_DELAY
         while not self._stopped:
+            reset_client_after_cleanup = False
+            cancelled = False
             try:
                 await self._connect()
                 reconnect_delay = MIN_RECONNECT_DELAY
                 self._adapter_error_count = 0
                 await self._process_frames()
             except asyncio.CancelledError:
-                break
+                cancelled = True
             except BleakError as exc:
                 if _is_adapter_not_found_error(exc):
                     # Adapter moved or unavailable - use longer backoff and rebuild state.
@@ -123,20 +125,19 @@ class FossibotRuntime:
                         ADAPTER_ERROR_BACKOFF,
                     )
                     if self._adapter_error_count >= MAX_ADAPTER_ERROR_RETRIES:
-                        # Reset client after multiple adapter errors
                         LOGGER.info(
                             "Resetting BLE client for %s after %s adapter errors",
                             self._mac,
                             self._adapter_error_count,
                         )
-                        self._client = FossibotBleClient(self._mac)
+                        reset_client_after_cleanup = True
                         self._adapter_error_count = 0
                     reconnect_delay = ADAPTER_ERROR_BACKOFF
                 elif _is_connection_slot_error(exc):
                     # Temporary scanner/backend capacity issue. Recreate client so the next
                     # attempt rebinds against the current HA Bluetooth backend state.
                     self._adapter_error_count = 0
-                    self._client = FossibotBleClient(self._mac)
+                    reset_client_after_cleanup = True
                     reconnect_delay = max(MIN_RECONNECT_DELAY, ADAPTER_ERROR_BACKOFF)
                     LOGGER.warning(
                         "No BLE connection slot available for %s. Retrying in %ss: %s",
@@ -154,7 +155,9 @@ class FossibotRuntime:
                 reconnect_delay = min(reconnect_delay * 2, MAX_RECONNECT_DELAY)
             finally:
                 await self._cleanup_client()
-                if self._stopped:
+                if reset_client_after_cleanup:
+                    self._client = FossibotBleClient(self._mac)
+                if self._stopped or cancelled:
                     break
                 self._set_available(False)
                 await asyncio.sleep(reconnect_delay)

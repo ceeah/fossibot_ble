@@ -87,27 +87,34 @@ class FossibotBleClient:
                 raise
             self._client = None
             raise
+        client = self._require_client()
+        try:
+            service_cache = client.services
+            if service_cache is None:
+                get_services = getattr(client, "get_services", None)
+                if callable(get_services):
+                    await get_services()
+                    service_cache = client.services
+            if service_cache is None:
+                raise RuntimeError("Unable to enumerate BLE services on device")
+
+            service = service_cache.get_service(SERVICE_UUID)
+            if service is None:
+                raise RuntimeError("A002 service not found on device")
+
+            write_characteristic = service.get_characteristic(MODBUS_WRITE_UUID)
+            notify_characteristic = service.get_characteristic(MODBUS_NOTIFY_UUID)
+            if not write_characteristic or not notify_characteristic:
+                raise RuntimeError("C304/C305 characteristics not found on device")
+        except Exception:
+            with suppress(Exception):
+                await client.disconnect()
+            self._client = None
+            self._connected = False
+            raise
+
         self._connected = True
         LOGGER.info("Connection successful")
-
-        client = self._require_client()
-        service_cache = client.services
-        if service_cache is None:
-            get_services = getattr(client, "get_services", None)
-            if callable(get_services):
-                await get_services()
-                service_cache = client.services
-        if service_cache is None:
-            raise RuntimeError("Unable to enumerate BLE services on device")
-
-        service = service_cache.get_service(SERVICE_UUID)
-        if service is None:
-            raise RuntimeError("A002 service not found on device")
-
-        write_characteristic = service.get_characteristic(MODBUS_WRITE_UUID)
-        notify_characteristic = service.get_characteristic(MODBUS_NOTIFY_UUID)
-        if not write_characteristic or not notify_characteristic:
-            raise RuntimeError("C304/C305 characteristics not found on device")
 
     async def disconnect(self) -> None:
         """Stop notifications (if active) and close the BLE connection."""
@@ -257,21 +264,20 @@ async def stream_register_frames(
         device_address=device_address,
         function_code=function_code,
     )
-    await client.connect()
-
     queue: asyncio.Queue[Tuple[ModbusReadFrame, bytes]] = asyncio.Queue()
 
     def _queue_frame(frame: ModbusReadFrame, payload: bytes) -> None:
         queue.put_nowait((frame, payload))
 
-    await client.subscribe_notifications(_queue_frame)
-    await client.send_registers_read_request()
-
     try:
+        await client.connect()
+        await client.subscribe_notifications(_queue_frame)
+        await client.send_registers_read_request()
         while True:
             yield await queue.get()
     finally:
-        await client.stop_notifications()
+        with suppress(Exception):
+            await client.stop_notifications()
         with suppress(Exception):
             await client.disconnect()
 
